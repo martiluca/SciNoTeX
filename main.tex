@@ -1,0 +1,151 @@
+\documentclass[a4paper, twoside, 11pt]{report}
+
+%%%%%%%%%%%%%%%%%
+%%BASIC PACKAGES%%
+%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{graphicx, geometry, wrapfig, xcolor, float, multicol, mathtools, array, csquotes, lscape, setspace}
+\usepackage[export]{adjustbox}
+\usepackage{tikz, tcolorbox}
+\usepackage{multirow, booktabs, makecell, diagbox}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%%OPTIONAL PACKAGES%%
+%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{pdfpages} %insert pdf 
+%\usepackage[version=4]{mhchem} %insert chemical formulas
+%\usepackage{chemfig} %draw molecules and reactions
+%\usepackage{siunitx} %SI units in mathematical formula using \si{} in the math environment
+%\usepackage{listings} %add code portions
+%\usepackage{thmbox} %theorems boxes
+%\usepackage{arydshln} %dashed line in tables
+%\usepackage{chronosys} %create timelines
+%\usepackage[labelfont=bf]{caption} %bold figures' labels
+
+%\usepackage{lipsum} %testing purposes package
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%LANGUAGE SELECTION%%
+%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage[italian]{babel} %Italian
+\usepackage[english]{babel} %English
+
+%%%%%%%%%%%%%%%%
+%%BIBLIOGRAPHY%%
+%%%%%%%%%%%%%%%%
+\usepackage[style=authoryear-comp]{biblatex}
+\addbibresource{ref.bib}
+
+%%%%%%%%%
+%%STYLE%%
+%%%%%%%%%
+% page style
+\geometry{
+    top=3.5cm,
+    bottom=3.0cm,
+    outer=2.0cm,
+    inner=3.0cm
+}
+
+% no indentation
+\setlength{\parindent}{0em}
+
+% chapter style
+\usepackage[Bjarne]{fncychap} %Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+
+% font
+\usepackage{times}
+
+% table of contents
+\newcommand{\romantableofcontents}{ % creates a table of contents with roman (i, ii, iii, ...) numbering of the pages
+    \newpage
+    \pagenumbering{roman}
+    \tableofcontents
+    \newpage
+    \pagenumbering{arabic}
+}
+
+%color palette (you can see the colors in the color_palette.png)
+\definecolor{tblue}{HTML}{4B90E2}
+\definecolor{tyellow}{HTML}{F8E71C}
+\definecolor{torange}{HTML}{F5A622}
+\definecolor{tred}{HTML}{D0011C}
+\definecolor{tviolet}{HTML}{8F13FE}
+\definecolor{tpurple}{HTML}{BD11E0}
+\definecolor{tgreen}{HTML}{407505}
+\definecolor{tlime}{HTML}{B8E986}
+
+% link style and pdf title
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    allcolors=.,
+    pdftitle={PDF TITLE},
+    }
+
+%%%%%%%%%%%%
+%%DOCUMENT%%
+%%%%%%%%%%%%
+
+\begin{document}
+
+% title page
+\begin{titlepage}
+   \begin{center}
+        \vspace*{1cm}
+        
+        % logo 
+        \includegraphics[width=0.25\textwidth]{logo.jpg}        
+        \vspace{1.5cm}
+        
+        % university name and course
+        \large
+        \textbf{UNIVERSITÀ DEGLI STUDI DI VERONA}
+        
+        \vspace{0.5cm}
+        MASTER'S DEGREE IN MOLECULAR AND MEDICAL BIOTECHNOLOGY
+        
+        % title and subtitle
+        \vspace{1.5cm}
+        \huge
+        \textbf{Title}
+        
+        \vspace{0.5cm}
+        \large
+        SUBTITLE
+        
+        % author/professor
+        \large
+        \vspace{1.5cm}
+        Lecturer:
+        
+        % academic year
+        \vfill
+        A.y. 
+            
+   \end{center}
+\end{titlepage}
+
+% insert blank page after titlepage
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+
+% table of contents
+    \romantableofcontents
+    
+% document starts here
+
+% I suggest creating separate .tex for each chapters (in the chapter folder) and then use \include here to render them. This allows to edit chapters individually (faster compiling, especially here in overleaf) and to rearrange them more easily.
+
+%%%%%%%%%%%%
+%%APPENDIX%%
+%%%%%%%%%%%%
+%\appendix
+
+%\printbibliography %bibliography
+
+\end{document}
