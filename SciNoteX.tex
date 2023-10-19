@@ -1,33 +1,27 @@
-\documentclass[a4paper, twoside, 11pt]{report}
+% Notes template created with scientific notes in mind.
+%
+% Copyright (C) 2023  Martina Lucà
+%
+% This program is free software: you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation, either version 3 of the License, or
+% (at your option) any later version.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-%%%%%%%%%%%%%%%%%
-%%BASIC PACKAGES%%
-%%%%%%%%%%%%%%%%%
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath, amsfonts, amssymb}
-\usepackage{graphicx, geometry, wrapfig, xcolor, float, multicol, mathtools, array, csquotes, lscape, setspace}
-\usepackage[export]{adjustbox}
-\usepackage{tikz, tcolorbox}
-\usepackage{multirow, booktabs, makecell, diagbox}
-\usepackage{microtype}
-\usepackage{textcase}
-\usepackage[font=small,labelfont=bf]{caption}[2023/03/12]
-\usepackage{xspace}
-\usepackage[fixed]{fontawesome5}
-\usepackage{scrextend}
 
-%%%%%%%%%%%%%%%%%%%%%
-%%OPTIONAL PACKAGES%%
-%%%%%%%%%%%%%%%%%%%%%
-%\usepackage{pdfpages} %insert pdf 
-%\usepackage[version=4]{mhchem} %insert chemical formulas
-%\usepackage{chemfig} %draw molecules and reactions
-%\usepackage{siunitx} %SI units in mathematical formula using \si{} in the math environment
-%\usepackage{listings} %add code portions
-%\usepackage{thmbox} %theorems boxes
-%\usepackage{arydshln} %dashed line in tables
-%\usepackage{chronosys} %create timelines
+\documentclass[a4paper,twoside,11pt,cleardoublepage=empty]{report}
 
+%%%%%%%%%%%%%%
+%% PACKAGES %%
+%%%%%%%%%%%%%%
+\include{scinotex-packages}
 \usepackage{lipsum} %testing purposes package
 
 %%%%%%%%%%%%%%%%%%%%%%
@@ -45,71 +39,32 @@
 %%%%%%%%%
 %%STYLE%%
 %%%%%%%%%
-% page style
-\geometry{
-    top=3.5cm,
-    bottom=3.0cm,
-    outer=2.0cm,
-    inner=3.0cm
-}
+\input{scinotex-style.tex}
 
-% no indentation
-\setlength{\parindent}{0em}
-
-% chapter style
-\usepackage[Bjarne]{fncychap} %Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
-
-% font
-\usepackage{times}
-
-% table of contents
-\newcommand{\romantableofcontents}{ % creates a table of contents with roman (i, ii, iii, ...) numbering of the pages
-    \newpage
-    \pagenumbering{roman}
-    \tableofcontents
-    \newpage
-    \pagenumbering{arabic}
-}
-
-% link style and pdf title
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    allcolors=.,
-    pdftitle={PDF TITLE},
-    }
-
+%%%%%%%%%%%%%%%%%%%%
+%% YOUR DATA HERE %%
+%%%%%%%%%%%%%%%%%%%%
 \input{scinotex-config.tex}    
 
 %%%%%%%%%%%%
 %%DOCUMENT%%
 %%%%%%%%%%%%
-
 \begin{document}
 
 % title page
-\include{FrontBackMatter/TitlePage}
-
-% insert blank page after titlepage
-\newpage
-\thispagestyle{empty}
-\mbox{}
-\newpage
+\include{FrontMatter/TitlePage}\cleardoublepage
 
 % table of contents
-    \romantableofcontents
+\romantableofcontents
     
-% document starts here
-
-% I suggest creating separate .tex for each chapters (in the chapter folder) and then use \include here to render them. This allows to edit chapters individually (faster compiling, especially in Overleaf) and to rearrange them more easily.
-
+% chapters
 \include{Chapters/Chapter01}
 
-%%%%%%%%%%%%
-%%APPENDIX%%
-%%%%%%%%%%%%
-%\appendix
+% appendix
+\appendix
+\include{Chapters/Appendix01}
 
-%\printbibliography %bibliography
+% bibliography
+%\printbibliography 
 
 \end{document}

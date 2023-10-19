@@ -8,6 +8,13 @@ INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/l
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size11.clo
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size11.clo
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./scinotex-packages.tex
+INPUT ./scinotex-packages.tex
+INPUT ./scinotex-packages.tex
+INPUT ./scinotex-packages.tex
+INPUT ./scinotex-packages.tex
+INPUT ./scinotex-packages.tex
+INPUT scinotex-packages.tex
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
@@ -331,6 +338,9 @@ INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/l
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/biblatex.cfg
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/blx-case-expl3.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/blx-case-expl3.sty
+INPUT ./scinotex-style.tex
+INPUT ./scinotex-style.tex
+INPUT scinotex-style.tex
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fncychap/fncychap.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fncychap/fncychap.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/times.sty
@@ -388,12 +398,15 @@ INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts
 INPUT ./SciNoteX.aux
 INPUT ./SciNoteX.aux
 INPUT SciNoteX.aux
-INPUT ./FrontBackMatter/TitlePage.aux
-INPUT ./FrontBackMatter/TitlePage.aux
-INPUT FrontBackMatter/TitlePage.aux
+INPUT ./FrontMatter/TitlePage.aux
+INPUT ./FrontMatter/TitlePage.aux
+INPUT FrontMatter/TitlePage.aux
 INPUT ./Chapters/Chapter01.aux
 INPUT ./Chapters/Chapter01.aux
 INPUT Chapters/Chapter01.aux
+INPUT ./Chapters/Appendix01.aux
+INPUT ./Chapters/Appendix01.aux
+INPUT Chapters/Appendix01.aux
 OUTPUT SciNoteX.aux
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -424,12 +437,12 @@ OUTPUT SciNoteX.pdf
 INPUT ./SciNoteX.out
 INPUT ./SciNoteX.out
 OUTPUT SciNoteX.out
-INPUT ./FrontBackMatter/TitlePage.tex
-INPUT ./FrontBackMatter/TitlePage.tex
-OUTPUT FrontBackMatter/TitlePage.aux
-INPUT ./FrontBackMatter/TitlePage.tex
-INPUT ./FrontBackMatter/TitlePage.tex
-INPUT FrontBackMatter/TitlePage.tex
+INPUT ./FrontMatter/TitlePage.tex
+INPUT ./FrontMatter/TitlePage.tex
+OUTPUT FrontMatter/TitlePage.aux
+INPUT ./FrontMatter/TitlePage.tex
+INPUT ./FrontMatter/TitlePage.tex
+INPUT FrontMatter/TitlePage.tex
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fontawesome5/ufontawesomefree0.fd
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fontawesome5/ufontawesomefree0.fd
@@ -463,13 +476,22 @@ OUTPUT Chapters/Chapter01.aux
 INPUT ./Chapters/Chapter01.tex
 INPUT ./Chapters/Chapter01.tex
 INPUT Chapters/Chapter01.tex
+INPUT ./Chapters/Appendix01.tex
+INPUT ./Chapters/Appendix01.tex
+OUTPUT Chapters/Appendix01.aux
+INPUT ./Chapters/Appendix01.tex
+INPUT ./Chapters/Appendix01.tex
+INPUT Chapters/Appendix01.tex
 INPUT SciNoteX.aux
-INPUT ./FrontBackMatter/TitlePage.aux
-INPUT ./FrontBackMatter/TitlePage.aux
-INPUT FrontBackMatter/TitlePage.aux
+INPUT ./FrontMatter/TitlePage.aux
+INPUT ./FrontMatter/TitlePage.aux
+INPUT FrontMatter/TitlePage.aux
 INPUT ./Chapters/Chapter01.aux
 INPUT ./Chapters/Chapter01.aux
 INPUT Chapters/Chapter01.aux
+INPUT ./Chapters/Appendix01.aux
+INPUT ./Chapters/Appendix01.aux
+INPUT Chapters/Appendix01.aux
 INPUT ./SciNoteX.out
 INPUT ./SciNoteX.out
 INPUT SciNoteX.run.xml
