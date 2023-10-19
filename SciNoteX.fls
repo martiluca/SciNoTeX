@@ -267,6 +267,10 @@ INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/l
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/koma-script/scrlogo.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/koma-script/scrlogo.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/footmisc/footmisc.sty
+INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lipsum/lipsum.sty
+INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lipsum/lipsum.sty
+INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lipsum/lipsum.ltd.tex
+INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lipsum/lipsum.ltd.tex
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.def
@@ -387,6 +391,9 @@ INPUT SciNoteX.aux
 INPUT ./FrontBackMatter/TitlePage.aux
 INPUT ./FrontBackMatter/TitlePage.aux
 INPUT FrontBackMatter/TitlePage.aux
+INPUT ./Chapters/Chapter01.aux
+INPUT ./Chapters/Chapter01.aux
+INPUT Chapters/Chapter01.aux
 OUTPUT SciNoteX.aux
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -413,10 +420,10 @@ INPUT ./SciNoteX.out
 INPUT ./SciNoteX.out
 INPUT SciNoteX.out
 INPUT SciNoteX.out
+OUTPUT SciNoteX.pdf
 INPUT ./SciNoteX.out
 INPUT ./SciNoteX.out
 OUTPUT SciNoteX.out
-OUTPUT SciNoteX.pdf
 INPUT ./FrontBackMatter/TitlePage.tex
 INPUT ./FrontBackMatter/TitlePage.tex
 OUTPUT FrontBackMatter/TitlePage.aux
@@ -444,13 +451,25 @@ INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts
 INPUT ./SciNoteX.toc
 INPUT ./SciNoteX.toc
 INPUT SciNoteX.toc
+INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb7t.tfm
 OUTPUT SciNoteX.toc
+INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT ./Chapters/Chapter01.tex
+INPUT ./Chapters/Chapter01.tex
+OUTPUT Chapters/Chapter01.aux
+INPUT ./Chapters/Chapter01.tex
+INPUT ./Chapters/Chapter01.tex
+INPUT Chapters/Chapter01.tex
 INPUT SciNoteX.aux
 INPUT ./FrontBackMatter/TitlePage.aux
 INPUT ./FrontBackMatter/TitlePage.aux
 INPUT FrontBackMatter/TitlePage.aux
+INPUT ./Chapters/Chapter01.aux
+INPUT ./Chapters/Chapter01.aux
+INPUT Chapters/Chapter01.aux
 INPUT ./SciNoteX.out
 INPUT ./SciNoteX.out
 INPUT SciNoteX.run.xml
