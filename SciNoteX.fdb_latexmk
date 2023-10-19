@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber SciNoteX"] 0 "SciNoteX.bcf" "SciNoteX.bbl" "SciNoteX" 1697737906 -1
+["biber SciNoteX"] 0 "SciNoteX.bcf" "SciNoteX.bbl" "SciNoteX" 1697738402 -1
   "./ref.bib" 1697731413 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "SciNoteX.bcf" 1697737906 107398 6bc296e7fa1b4bd7b55c070c99914924 "pdflatex"
+  "SciNoteX.bcf" 1697738401 107398 6bc296e7fa1b4bd7b55c070c99914924 "pdflatex"
   (generated)
   "SciNoteX.bbl"
   "SciNoteX.blg"
   (rewritten before read)
-["pdflatex"] 1697737905 "/Users/martinaluca/Documents/tex/SciNoteX/SciNoteX.tex" "SciNoteX.pdf" "SciNoteX" 1697737906 0
-  "/Users/martinaluca/Documents/tex/SciNoteX/SciNoteX.tex" 1697737902 1653 f02b5f483c4ee145ce8f504c8bb8752d ""
+["pdflatex"] 1697738400 "/Users/martinaluca/Documents/tex/SciNoteX/SciNoteX.tex" "SciNoteX.pdf" "SciNoteX" 1697738402 0
+  "/Users/martinaluca/Documents/tex/SciNoteX/SciNoteX.tex" 1697738308 1651 6a50c2174ae3deb1ebabf3048925c744 ""
   "/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1697735779 124134 b8ffad45365aef2932f16b86fa9d9ddc ""
   "/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1689542932 20942462 bee3abf269ef20d704368c00d0f415b8 ""
   "/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc" 1689542100 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
@@ -221,21 +221,21 @@
   "/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/wrapfig/wrapfig.sty" 1689542937 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1689542107 56148 51a9a8571c07b9921892ae11063ae853 ""
   "/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.sty" 1689542107 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "Chapters/Appendix01.aux" 1697737906 4308 f5289fd61b0045a4b6ba79aea984954d "pdflatex"
+  "Chapters/Appendix01.aux" 1697738401 4308 f5289fd61b0045a4b6ba79aea984954d "pdflatex"
   "Chapters/Appendix01.tex" 1697737873 31 fb5482da8abb4f894d030d03e9bf0f9d ""
-  "Chapters/Chapter01.aux" 1697737906 4305 0e24ca2e2d8171431b38dc3338263f73 "pdflatex"
+  "Chapters/Chapter01.aux" 1697738401 4305 0e24ca2e2d8171431b38dc3338263f73 "pdflatex"
   "Chapters/Chapter01.tex" 1697735774 30 adc31f3d398781d19fe8eabd28357fcc ""
-  "FrontMatter/TitlePage.aux" 1697737906 4126 eb38e57d7d8c07ad39fe2ce5190c9790 "pdflatex"
+  "FrontMatter/TitlePage.aux" 1697738401 4126 eb38e57d7d8c07ad39fe2ce5190c9790 "pdflatex"
   "FrontMatter/TitlePage.tex" 1697736138 1214 38edbc08c7e4914ac09d012a98da39e0 ""
-  "SciNoteX.aux" 1697737906 916 da3f0795a11361cec32d4d809f9ac6d9 "pdflatex"
+  "SciNoteX.aux" 1697738401 916 da3f0795a11361cec32d4d809f9ac6d9 "pdflatex"
   "SciNoteX.bbl" 1697734298 466 ee04f40f768daeed26442158e95aba61 "biber SciNoteX"
-  "SciNoteX.out" 1697737906 188 7d409fe96d58edba991397d7cf1cfedb "pdflatex"
-  "SciNoteX.run.xml" 1697737906 2376 764f4ddd2900b550710d59c3d5397087 "pdflatex"
-  "SciNoteX.tex" 1697737902 1653 f02b5f483c4ee145ce8f504c8bb8752d ""
-  "SciNoteX.toc" 1697737906 162 d8d76bfc942b80c3b604986abfe8298c "pdflatex"
-  "scinotex-config.tex" 1697736806 724 73fb376a65ff6b7d4b01f0a26a3956fc ""
+  "SciNoteX.out" 1697738401 188 7d409fe96d58edba991397d7cf1cfedb "pdflatex"
+  "SciNoteX.run.xml" 1697738401 2376 764f4ddd2900b550710d59c3d5397087 "pdflatex"
+  "SciNoteX.tex" 1697738308 1651 6a50c2174ae3deb1ebabf3048925c744 ""
+  "SciNoteX.toc" 1697738401 162 d8d76bfc942b80c3b604986abfe8298c "pdflatex"
+  "scinotex-config.tex" 1697738399 942 df04ad9209ae1deb9241e3a569377c16 ""
   "scinotex-packages.tex" 1697737287 933 5fdf30c55df38c217ce6c537e2b9d7b3 ""
-  "scinotex-style.tex" 1697737180 649 298fbaa8e88960b9108279d0f55cc9ae ""
+  "scinotex-style.tex" 1697738286 516 1fc757f86b79d1f2eb9e7b887d73f58d ""
   (generated)
   "Chapters/Appendix01.aux"
   "Chapters/Chapter01.aux"

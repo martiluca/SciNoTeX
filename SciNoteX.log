@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.7.16)  19 OCT 2023 19:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.7.16)  19 OCT 2023 20:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,11 +24,7 @@ File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-)
-
-LaTeX Warning: \include should only be used after \begin{document} on input line 24.
-
-(scinotex-packages.tex (/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
+) (scinotex-packages.tex (/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
@@ -961,7 +957,7 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \c@AlphaDecCnt=\count468
 ) (/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
-) (/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref.sty
+)) (scinotex-config.tex (/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-06-25 v7.01a Hypertext links for LaTeX
  (/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -1049,8 +1045,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip93
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 33.
-) (scinotex-config.tex)
+Package hyperref Info: Option `colorlinks' set `true' on input line 40.
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1246,9 +1242,9 @@ Here is how much of TeX's memory you used:
  61755 multiletter control sequences out of 15000+600000
  570906 words of font info for 87 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 115i,5n,122p,1047b,1854s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,5n,120p,1047b,1854s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}{/Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/fontawesome5/fa5free0.enc}</Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb>
-Output written on SciNoteX.pdf (5 pages, 41538 bytes).
+Output written on SciNoteX.pdf (5 pages, 41604 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)

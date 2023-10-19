@@ -12,8 +12,6 @@ INPUT ./scinotex-packages.tex
 INPUT ./scinotex-packages.tex
 INPUT ./scinotex-packages.tex
 INPUT ./scinotex-packages.tex
-INPUT ./scinotex-packages.tex
-INPUT ./scinotex-packages.tex
 INPUT scinotex-packages.tex
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
@@ -345,6 +343,9 @@ INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/l
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fncychap/fncychap.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/times.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/times.sty
+INPUT ./scinotex-config.tex
+INPUT ./scinotex-config.tex
+INPUT scinotex-config.tex
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -388,9 +389,6 @@ INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/l
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
-INPUT ./scinotex-config.tex
-INPUT ./scinotex-config.tex
-INPUT scinotex-config.tex
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1ptm.fd
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1ptm.fd
 INPUT /Users/martinaluca/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1ptm.fd
