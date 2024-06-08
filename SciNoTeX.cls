@@ -79,6 +79,15 @@
 % Chapter Style %
 \usepackage[Bjarne]{fncychap} %Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
 
+% link style and pdf title
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    allcolors=., % no color links
+    pdftitle={\myCourse},
+    pdfauthor={\myName, \myUni}
+    }
+
 %% BIBLIOGRAPHY %%
 \usepackage[backend=biber, style=authoryear-comp, sorting=nyt, maxcitenames=2]{biblatex}
 \addbibresource{ref.bib}
