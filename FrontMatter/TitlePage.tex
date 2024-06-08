@@ -1,42 +1,54 @@
+\newgeometry{
+    top=3.5cm,
+    bottom=3.0cm,
+    outer=3.0cm,
+    inner=3.0cm
+}
+
 \begin{titlepage}
-    \begin{addmargin}[0cm]{1cm} %centered titlepage
-        \begin{center}
-            \vfill
+    \begin{center}
+        \vfill
+        \hfill
+        
+        % logo (I use fontawesome to get logos that remind me of the subject we are talking about to avoid using the uni's logo)
+        \Huge        
+        \faCarrot 
+        \vspace{1.5cm}
+        
+        % university name, department and course
+        \Large
+        \MakeTextUppercase{\myUni}
+        
+        \vspace{0.2cm}
+        \myDepartment
+        
+        \vspace{0.7cm}
+        \textbf{\myDegree}
+        
+        % title and subtitle
+        \vspace{1.5cm}
+        \huge
+        \myCourse
+        
+        % author and professor
+        \large
+        \vspace{2.5cm}
+        \begin{minipage}[t]{0.47\textwidth}
+            {
+                \large Lecturer:\\
+                \textbf{\myLecturer}\\\\
+                }
+            \end{minipage}
             \hfill
-            
-            % logo (I use fontawesome to get logos that remind me of the subject we are talking about to avoid using the uni's logo)
-            \Huge        
-            \faCarrot 
-            \vspace{1.5cm}
-            
-            % university name, department and course
-            \Large
-            \MakeTextUppercase{\myUni}
-            
-            \vspace{0.2cm}
-            \myDepartment
-            
-            \vspace{0.7cm}
-            \textbf{\myDegree}
-            
-            % title and subtitle
-            \vspace{1.5cm}
-            \huge
-            \myCourse
-            
-            % author and professor
-            \large
-            \vspace{2.5cm}
-            \begin{flushleft}
-                \MakeTextUppercase{lecturer:} \myLecturer
-            \end{flushleft}
-            \begin{flushright}
-                \MakeTextUppercase{notes by:} \myName
-            \end{flushright}
-            
-            % location and academic year
-            \vfill
-            \myLocation, \myYear
-        \end{center}
-    \end{addmargin}
- \end{titlepage}
+            \begin{minipage}[t]{0.47\textwidth}\raggedleft
+                \large Notes by:\\
+                \textbf{\myName}
+            \end{minipage}
+        
+        % location and academic year
+        \vfill
+        \myLocation, \myYear
+    \end{center}
+\end{titlepage}
+ 
+\restoregeometry

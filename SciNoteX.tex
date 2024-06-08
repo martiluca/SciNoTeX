@@ -1,3 +1,5 @@
+%!TEX program = lualatex
+
 % Notes template created with scientific notes in mind.
 %
 % Copyright (C) 2023  Martina Lucà
@@ -15,35 +17,10 @@
 % You should have received a copy of the GNU General Public License
 % along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+\documentclass[a4paper,twoside,11pt,cleardoublepage=empty]{SciNoTeX}
 
-\documentclass[a4paper,twoside,11pt,cleardoublepage=empty]{report}
-
-%%%%%%%%%%%%%%
-%% PACKAGES %%
-%%%%%%%%%%%%%%
-\input{scinotex-packages}
-\usepackage{lipsum} %testing purposes package
-
-%%%%%%%%%%%%%%%%%%%%%%
-%%LANGUAGE SELECTION%%
-%%%%%%%%%%%%%%%%%%%%%%
-%\usepackage[italian]{babel} %Italian
-\usepackage[english]{babel} %English
-
-%%%%%%%%%%%%%%%%
-%%BIBLIOGRAPHY%%
-%%%%%%%%%%%%%%%%
-\usepackage[style=authoryear-comp]{biblatex}
-\addbibresource{ref.bib}
-
-%%%%%%%%%
-%%STYLE%%
-%%%%%%%%%
-\input{scinotex-style.tex}
-
-%%%%%%%%%%%%%%%%%%%%
-%% YOUR DATA HERE %%
-%%%%%%%%%%%%%%%%%%%%
+%% Your Data %%
+% You can enter your data in this file and this will be used to automatically generate the title page
 \input{scinotex-config.tex}    
 
 %%%%%%%%%%%%
